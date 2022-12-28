@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital, wght@0, 600;0, 800;1, 300 &display=swap');
+
+body {
+    margin: 0;
+
+    color: black;
+    background-color: hsl(207, 26%, 17%);
+    font-family: 'Nunito Sans', sans-serif;
+}
+.navBar {
+    display: flex;
+    align-items: center;
+    background-color: hsl(209, 23%, 22%);
+    color: hsl(0, 0%, 100%);
+    height: 80px;
+    box-shadow: 0 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+.nav--heading {
+
+    margin-left: 80px;
+    font-weight: 800;
+}
+.nav--darkMode {
+
+    margin-left: auto;
+    margin-right: 50px;
+    cursor: pointer;
+}
+.searchBox-container {
+    display: flex;
+    align-items: center;
+    height: 150px;
+    background-color: hsl(207, 26%, 17%);
+}
+.search-box {
+    margin-left: 80px;
+    width: 400px;
+    padding: 15px;
+    font-size: 18px;
+
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(209, 23%, 22%);
+    border: none;
+    outline: none;
+    font-weight: 600;
+    box-shadow: 0 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+.search-box::placeholder {
+    font-size: 18px;
+    color: hsl(0, 0%, 100%);
+
+    font-weight: 600;
+    opacity: 50%;
+}
+.filterByRegions {
+    margin-left: auto;
+    margin-right: 50px;
+    width: 200px;
+    padding: 15px;
+    font-size: 18px;
+
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(209, 23%, 22%);
+    border: none;
+    outline: none;
+    font-weight: 600;
+    box-shadow: 0 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    margin-left: 80px;
+    margin-right: 50px;
+    gap: 50px;
+
+
+}
+.card-container {
+    width: 250px;
+    cursor: pointer;
+    background-color: hsl(209, 23%, 22%);
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+
+}
+.card-img {
+    width: 250px;
+    height: 150px;
+    border-radius: 5px 5px 0 0;
+    object-fit: cover;
+}
+.card-info {
+    width: 80%;
+    position: relative;
+    left: 20px;
+    bottom: 5px;
+    color: hsl(0, 0%, 100%);
+}
+.card-info > h4 {
+    font-size: 18px;
+    font-weight: 800;
+}
+.card-info > p {
+    margin: 5px;
+    font-weight: 300;
+}
+
+.country-con {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-right: 50px;
+}
+.country-image {
+    width: 800px;
+    height: 400px;
+    object-fit: cover;
+    margin-top: 60px;
+    box-shadow: 0 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.back {
+    width: 100px;
+    height: 40px;
+}
+.main-con {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.informations {
+    margin-top: 80px;
+    width: 50%;
+    color: white;
+}
+.info-1,
+.info-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 300px;
+    height: 180px;
+}
+.info-2 {
+    margin-left: 80px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+span {
+    margin: 5px;
+}
+.back {
+    cursor: pointer;
+    background-color: hsl(209, 23%, 22%);
+    color: white;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+.light-mode {
+    background-color: white;
+    color: black;
+}
